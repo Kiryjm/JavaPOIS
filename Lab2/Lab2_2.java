@@ -19,7 +19,7 @@ public class Lab2_2
     public static void main(String args[])
     {
 		
-		SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+	SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
         Date currentDate = new Date();
         Date birthDate = new Date();
        
@@ -36,7 +36,7 @@ public class Lab2_2
 
 	long lifeTime = lifeTime (currentDate, birthDate);
 
-    System.out.println("Ваш день рождения: " + birthDate);
+    	System.out.println("Ваш день рождения: " + birthDate);
 	System.out.println("Сегодня: " + currentDate);
 	System.out.println("Вы живете " + lifeTimeInYears(lifeTime) + " лет!");
 	System.out.println("Вы живете " + lifeTimeInDays(lifeTime) + " дней!");
