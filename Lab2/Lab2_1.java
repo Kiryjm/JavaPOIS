@@ -17,19 +17,9 @@ import java.lang.*; // импортируем системный класс java
 public class Lab2_1
 {  
     public static void main(String args[])
-    {
-		/*
-		String birthDate = "";
-		String workPlace = "";
-		String occup = "";
-		String hobby = "";
-		String motto = "";
-		String familyStatus = "";
-		int workTime = 0;
-		int relaxTime = 0;
-		*/
-		
-        Scanner scanner = new Scanner(System.in);
+    {	
+     
+	Scanner scanner = new Scanner(System.in);
         
         System.out.println("Введите дату рождения:");
         String birthDate = scanner.nextLine();
@@ -55,14 +45,14 @@ public class Lab2_1
         System.out.println("Сколько часов вы отдыхаете:");
         int relaxTime = scanner.nextInt();
 		
-		System.out.printf("\n\n%4s\n", "Дата рождения:\t\t" + birthDate);
-		System.out.printf("%4s\n", "Место работы:\t\t" + workPlace);
-		System.out.printf("%4s\n", "Род деятельности:\t" + occup);
-		System.out.printf("%4s\n", "Хобби:\t\t\t" + hobby);
-		System.out.printf("%4s\n", "Девиз:\t\t\t" + motto);
-		System.out.printf("%4s\n", "Семейное положение:\t" + familyStatus);
-		System.out.printf("Время на работе:\t%d \n", workTime);
-		System.out.printf("Время на отдых:\t\t%d \n", relaxTime);
+	System.out.printf("\n\n%4s\n", "Дата рождения:\t\t" + birthDate);
+	System.out.printf("%4s\n", "Место работы:\t\t" + workPlace);
+	System.out.printf("%4s\n", "Род деятельности:\t" + occup);
+	System.out.printf("%4s\n", "Хобби:\t\t\t" + hobby);
+	System.out.printf("%4s\n", "Девиз:\t\t\t" + motto);
+	System.out.printf("%4s\n", "Семейное положение:\t" + familyStatus);
+	System.out.printf("Время на работе:\t%d \n", workTime);
+	System.out.printf("Время на отдых:\t\t%d \n", relaxTime);
     }
 }
 
