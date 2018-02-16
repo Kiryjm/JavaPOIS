@@ -10,7 +10,6 @@
 */
 
 import java.lang.*; // импортируем системный класс java для использования объектов in, out, err
-import java.util.*;
 
 public class Lab2_3
 {  
