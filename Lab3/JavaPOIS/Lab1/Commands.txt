@@ -1,2 +1,0 @@
-javac -encoding UTF-8 Lab1.java
-java Lab1
