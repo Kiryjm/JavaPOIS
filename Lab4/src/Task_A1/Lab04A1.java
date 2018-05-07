@@ -7,7 +7,7 @@ package Task_A1;
 ным осям.
  */
 
-public class Lab04A {
+public class Lab04A1 {
 
     public static void main(String[] args) {
         
