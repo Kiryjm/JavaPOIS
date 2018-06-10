@@ -13,7 +13,6 @@ public class Lab05_7 {
     
     public static void main(String[] args) {
         
-        System.out.println(119%100);
         View.print("*** The name of the number as a string ***");
         int number = UserInput.input("Input number: ");
         
